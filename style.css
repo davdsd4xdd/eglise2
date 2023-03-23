@@ -1,0 +1,193 @@
+/*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}*/
+body{
+  font-style: 'tw cen Mt';
+
+
+     font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    background:  linear-gradient(rgb(131, 179, 235),transparent),url("C:\Users\ADMIN\Desktop\cite\egli-0.jpg") center center no-repeat;
+    color:#2a060acb;
+    background-size: cover;
+  
+}
+header{
+  max-width: 100%;
+ margin-right: auto;
+  margin-left: auto;
+  
+  top: 1;
+  
+  
+}
+nav{
+  /*display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;*/
+  padding: 30px 0 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    border-color: #FFFFFF;
+    position: sticky;
+    background: #71ec2a25 ;
+    top: 0;
+  
+  height: 100PX ;
+  
+  
+  
+}
+nav .logo{
+  width: 170px;
+  
+}
+nav .me{
+  width: 60px;
+  cursor: pointer;
+  
+}
+nav ul{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end ;
+  padding-right: 40px;
+}
+nav ul li{
+  list-style: none;
+  margin-left: 20px;
+ 
+}
+nav a{
+
+  text-decoration: none;
+  color: #0638F9;
+  font-size: 1,2rem;
+  transition: color 0.3s;
+}
+nav a:hover{
+  color: #96F10B;
+}
+.texte{
+  padding: 17px 0;
+  max-width: 90%;
+  color: #53031C;
+  margin-left: auto;
+  margin-right: auto;
+}
+.texte h1{
+  font-size: 5px;
+  line-height: 3;
+
+  margin-bottom: 1rem;
+  
+  
+}
+.texte p{
+  font-size: 15px;
+  line-height: 54.5px;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  
+  
+  
+}
+.texte a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.25rem;
+  border: 1px solid #16FDF2;
+  padding: 10px 20px;
+  margin-right: 30px;
+}
+.texte .da{
+  color: #EBFE0E;
+  background-color: #000000;
+  font-weight: 600;
+}
+h1{
+  color: #e3efedd1;
+}
+.m{
+  font-size: 100px;
+  justify-content: center;
+color:  #0095FF;
+}
+button{
+  
+  font-size: 30px;
+  border: 1px solid transparent;
+  padding: 1rem 3rem ;
+  border-radius: 50px;
+ background-color: #CDFF00;
+ margin-top: 1rem;
+ font-size: 1rem;
+ transition: transform 0.3s, box-shadow 0.3s;
+
+
+  
+  
+  
+}
+button:hover{
+  box-shadow: 10px 15px 20px #CBCBCB ;
+  transform: translate(50%);
+}
+.t{
+  align-content: center;
+  color: #F5FF00;
+ /* border: 1px solid transparent;
+  /*padding: 4px 5px ;
+ /* border-radius: 50px;
+ background-color: #071AEA;*/
+ /*margin-top: 1rem;*/
+ font-size: 15px;
+ /*
+ transition: transform 0.3s, box-shadow 0.3s
+}
+ .t:hover{
+  box-shadow: 10px 15px 20px #CBCBCB ;
+  transform: translate(-15px);*/
+}
+.but{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+
+h3{
+  color: #df0cdfe4;
+  font-style: inherit;
+}
+.f p{
+  color: #3d043de4;
+  font-size: 25px;
+  font-style: inherit;
+}
+p.g{
+  font-style: italic;
+  color: #0044FF;
+  font-size: 30px;
+}
+
+div .f{
+  text-align: center;
+}
+.me{
+  border-radius: 50%;
+
+}
